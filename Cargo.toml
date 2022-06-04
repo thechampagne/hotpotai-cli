@@ -1,0 +1,22 @@
+[package]
+name = "hotpotai-cli"
+version = "1.0.0"
+description = "CLI app for graphic design, image editing, and copywriting"
+authors = ["XXIV"]
+homepage = "https://github.com/thechampagne/hotpotai-cli"
+repository = "https://github.com/thechampagne/hotpotai-cli"
+keywords = ["pictures", "media", "entertainment", "photos", "cli"]
+categories = ["command-line-utilities", "command-line-interface"]
+readme = "README.md"
+license = "Apache-2.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hotpotai = "1.0.0"
+
+[[bin]]
+bench = false
+path = "src/main.rs"
+name = "hotpotai"
